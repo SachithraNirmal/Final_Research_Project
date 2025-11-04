@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7602CB102DBC0A8800741CAA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7602CB0F2DBC0A8800741CAA /* FirebaseAnalytics */; };
+		7602CB122DBC0A8800741CAA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7602CB112DBC0A8800741CAA /* FirebaseAuth */; };
+		7602CB142DBC0A8800741CAA /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7602CB132DBC0A8800741CAA /* FirebaseCore */; };
+		7602CB162DBC0A8800741CAA /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7602CB152DBC0A8800741CAA /* FirebaseStorage */; };
+		7602CB182DBC0A8800741CAA /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7602CB172DBC0A8800741CAA /* FirebaseStorageCombine-Community */; };
+		765929F52DBC5500005826BB /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 765929F42DBC5500005826BB /* FirebaseDatabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7602CAD82DBBBFFB00741CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7602CAC22DBBBFF900741CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7602CAC92DBBBFF900741CAA;
+			remoteInfo = Smart_Home_App_New;
+		};
+		7602CAE22DBBBFFB00741CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7602CAC22DBBBFF900741CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7602CAC92DBBBFF900741CAA;
+			remoteInfo = Smart_Home_App_New;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7602CACA2DBBBFF900741CAA /* Smart_Home_App_New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Home_App_New.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7602CAD72DBBBFFB00741CAA /* Smart_Home_App_NewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smart_Home_App_NewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7602CAE12DBBBFFB00741CAA /* Smart_Home_App_NewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smart_Home_App_NewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7602CACC2DBBBFF900741CAA /* Smart_Home_App_New */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Smart_Home_App_New;
+			sourceTree = "<group>";
+		};
+		7602CADA2DBBBFFB00741CAA /* Smart_Home_App_NewTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Smart_Home_App_NewTests;
+			sourceTree = "<group>";
+		};
+		7602CAE42DBBBFFB00741CAA /* Smart_Home_App_NewUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Smart_Home_App_NewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7602CAC72DBBBFF900741CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765929F52DBC5500005826BB /* FirebaseDatabase in Frameworks */,
+				7602CB102DBC0A8800741CAA /* FirebaseAnalytics in Frameworks */,
+				7602CB162DBC0A8800741CAA /* FirebaseStorage in Frameworks */,
+				7602CB182DBC0A8800741CAA /* FirebaseStorageCombine-Community in Frameworks */,
+				7602CB142DBC0A8800741CAA /* FirebaseCore in Frameworks */,
+				7602CB122DBC0A8800741CAA /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7602CAD42DBBBFFB00741CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7602CADE2DBBBFFB00741CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7602CAC12DBBBFF900741CAA = {
+			isa = PBXGroup;
+			children = (
+				7602CACC2DBBBFF900741CAA /* Smart_Home_App_New */,
+				7602CADA2DBBBFFB00741CAA /* Smart_Home_App_NewTests */,
+				7602CAE42DBBBFFB00741CAA /* Smart_Home_App_NewUITests */,
+				7602CACB2DBBBFF900741CAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7602CACB2DBBBFF900741CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7602CACA2DBBBFF900741CAA /* Smart_Home_App_New.app */,
+				7602CAD72DBBBFFB00741CAA /* Smart_Home_App_NewTests.xctest */,
+				7602CAE12DBBBFFB00741CAA /* Smart_Home_App_NewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7602CAC92DBBBFF900741CAA /* Smart_Home_App_New */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7602CAEB2DBBBFFB00741CAA /* Build configuration list for PBXNativeTarget "Smart_Home_App_New" */;
+			buildPhases = (
+				7602CAC62DBBBFF900741CAA /* Sources */,
+				7602CAC72DBBBFF900741CAA /* Frameworks */,
+				7602CAC82DBBBFF900741CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7602CACC2DBBBFF900741CAA /* Smart_Home_App_New */,
+			);
+			name = Smart_Home_App_New;
+			packageProductDependencies = (
+				7602CB0F2DBC0A8800741CAA /* FirebaseAnalytics */,
+				7602CB112DBC0A8800741CAA /* FirebaseAuth */,
+				7602CB132DBC0A8800741CAA /* FirebaseCore */,
+				7602CB152DBC0A8800741CAA /* FirebaseStorage */,
+				7602CB172DBC0A8800741CAA /* FirebaseStorageCombine-Community */,
+				765929F42DBC5500005826BB /* FirebaseDatabase */,
+			);
+			productName = Smart_Home_App_New;
+			productReference = 7602CACA2DBBBFF900741CAA /* Smart_Home_App_New.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7602CAD62DBBBFFB00741CAA /* Smart_Home_App_NewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7602CAEE2DBBBFFB00741CAA /* Build configuration list for PBXNativeTarget "Smart_Home_App_NewTests" */;
+			buildPhases = (
+				7602CAD32DBBBFFB00741CAA /* Sources */,
+				7602CAD42DBBBFFB00741CAA /* Frameworks */,
+				7602CAD52DBBBFFB00741CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7602CAD92DBBBFFB00741CAA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7602CADA2DBBBFFB00741CAA /* Smart_Home_App_NewTests */,
+			);
+			name = Smart_Home_App_NewTests;
+			packageProductDependencies = (
+			);
+			productName = Smart_Home_App_NewTests;
+			productReference = 7602CAD72DBBBFFB00741CAA /* Smart_Home_App_NewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7602CAE02DBBBFFB00741CAA /* Smart_Home_App_NewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7602CAF12DBBBFFB00741CAA /* Build configuration list for PBXNativeTarget "Smart_Home_App_NewUITests" */;
+			buildPhases = (
+				7602CADD2DBBBFFB00741CAA /* Sources */,
+				7602CADE2DBBBFFB00741CAA /* Frameworks */,
+				7602CADF2DBBBFFB00741CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7602CAE32DBBBFFB00741CAA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7602CAE42DBBBFFB00741CAA /* Smart_Home_App_NewUITests */,
+			);
+			name = Smart_Home_App_NewUITests;
+			packageProductDependencies = (
+			);
+			productName = Smart_Home_App_NewUITests;
+			productReference = 7602CAE12DBBBFFB00741CAA /* Smart_Home_App_NewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7602CAC22DBBBFF900741CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					7602CAC92DBBBFF900741CAA = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					7602CAD62DBBBFFB00741CAA = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 7602CAC92DBBBFF900741CAA;
+					};
+					7602CAE02DBBBFFB00741CAA = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 7602CAC92DBBBFF900741CAA;
+					};
+				};
+			};
+			buildConfigurationList = 7602CAC52DBBBFF900741CAA /* Build configuration list for PBXProject "Smart_Home_App_New" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7602CAC12DBBBFF900741CAA;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7602CB0E2DBC08E300741CAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7602CACB2DBBBFF900741CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7602CAC92DBBBFF900741CAA /* Smart_Home_App_New */,
+				7602CAD62DBBBFFB00741CAA /* Smart_Home_App_NewTests */,
+				7602CAE02DBBBFFB00741CAA /* Smart_Home_App_NewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7602CAC82DBBBFF900741CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7602CAD52DBBBFFB00741CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7602CADF2DBBBFFB00741CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7602CAC62DBBBFF900741CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7602CAD32DBBBFFB00741CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7602CADD2DBBBFFB00741CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7602CAD92DBBBFFB00741CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7602CAC92DBBBFF900741CAA /* Smart_Home_App_New */;
+			targetProxy = 7602CAD82DBBBFFB00741CAA /* PBXContainerItemProxy */;
+		};
+		7602CAE32DBBBFFB00741CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7602CAC92DBBBFF900741CAA /* Smart_Home_App_New */;
+			targetProxy = 7602CAE22DBBBFFB00741CAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7602CAE92DBBBFFB00741CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7602CAEA2DBBBFFB00741CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7602CAEC2DBBBFFB00741CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "New-IOS-App-1.Smart-Home-App-New";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7602CAED2DBBBFFB00741CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "New-IOS-App-1.Smart-Home-App-New";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7602CAEF2DBBBFFB00741CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "New-IOS-App-1.Smart-Home-App-NewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart_Home_App_New.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart_Home_App_New";
+			};
+			name = Debug;
+		};
+		7602CAF02DBBBFFB00741CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "New-IOS-App-1.Smart-Home-App-NewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart_Home_App_New.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart_Home_App_New";
+			};
+			name = Release;
+		};
+		7602CAF22DBBBFFB00741CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "New-IOS-App-1.Smart-Home-App-NewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smart_Home_App_New;
+			};
+			name = Debug;
+		};
+		7602CAF32DBBBFFB00741CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "New-IOS-App-1.Smart-Home-App-NewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smart_Home_App_New;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7602CAC52DBBBFF900741CAA /* Build configuration list for PBXProject "Smart_Home_App_New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7602CAE92DBBBFFB00741CAA /* Debug */,
+				7602CAEA2DBBBFFB00741CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7602CAEB2DBBBFFB00741CAA /* Build configuration list for PBXNativeTarget "Smart_Home_App_New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7602CAEC2DBBBFFB00741CAA /* Debug */,
+				7602CAED2DBBBFFB00741CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7602CAEE2DBBBFFB00741CAA /* Build configuration list for PBXNativeTarget "Smart_Home_App_NewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7602CAEF2DBBBFFB00741CAA /* Debug */,
+				7602CAF02DBBBFFB00741CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7602CAF12DBBBFFB00741CAA /* Build configuration list for PBXNativeTarget "Smart_Home_App_NewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7602CAF22DBBBFFB00741CAA /* Debug */,
+				7602CAF32DBBBFFB00741CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7602CB0E2DBC08E300741CAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7602CB0F2DBC0A8800741CAA /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7602CB0E2DBC08E300741CAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7602CB112DBC0A8800741CAA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7602CB0E2DBC08E300741CAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7602CB132DBC0A8800741CAA /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7602CB0E2DBC08E300741CAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		7602CB152DBC0A8800741CAA /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7602CB0E2DBC08E300741CAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		7602CB172DBC0A8800741CAA /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7602CB0E2DBC08E300741CAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		765929F42DBC5500005826BB /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7602CB0E2DBC08E300741CAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7602CAC22DBBBFF900741CAA /* Project object */;
+}
